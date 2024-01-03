@@ -17,3 +17,10 @@ body{
     margin: 10px auto;
 
 }
+.images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.images .image img{
+    width: 100%;
+}
